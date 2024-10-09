@@ -1,0 +1,27 @@
+@import url(./GlobalStyles.scss);
+
+.label {
+	color: var(--gray-0);
+	font-family: var(--font);
+	font-size: var(--font-clamp2);
+	line-height: 0rem;
+}
+
+.input {
+	display: flex;
+	// width: 20.62056rem;
+	height: 3rem;
+	padding: 0rem 1rem;
+	align-items: center;
+	gap: 0.65rem;
+	flex-shrink: 0;
+	border-radius: 0.25rem;
+	border: 1.2px solid var(--gray-2);
+	background: var(--gray-2);
+}
+.help {
+	color: #868e96;
+	font-family: var(--font);
+	font-size: 0.6345rem;
+	line-height: 0rem; /* 0% */
+}
